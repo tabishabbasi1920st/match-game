@@ -1,0 +1,102 @@
+.app-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #2c0e3a;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.website-logo {
+  height: 35px;
+  width: 110px;
+}
+
+header div p {
+  color: #fff;
+  margin-right: 10px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header div div img {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+header div p span {
+  color: #fec653;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header div div p {
+  color: #fec653;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+}
+
+.display {
+  height: 38%;
+  width: 95%;
+  background-size: cover;
+  border-radius: 5px;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.display-picture {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .display {
+    width: 470px;
+    height: 290px;
+  }
+}
+
+.tab-container {
+  /* border:2px solid maroon; */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.thumbnail-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* @media screen and (min-width:437px){
+    .thumbnail-container{
+        width:397px;
+    }
+} */

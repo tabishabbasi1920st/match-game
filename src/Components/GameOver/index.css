@@ -1,0 +1,48 @@
+.game-over-bg-container {
+  height: 400px;
+  width: 90%;
+  background-color: #2c0e3a;
+  margin-top: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .game-over-bg-container {
+    width: 400px;
+  }
+}
+
+.trophy-img {
+  height: 50%;
+  width: 60%;
+}
+
+.your-score-heading {
+  color: #fff;
+  /* margin-bottom: 25px; */
+  text-align: center;
+}
+
+.score-count {
+  color: #fff;
+}
+
+.reset-icon {
+  margin-right: 5px;
+}
+
+.play-again-button {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #cf60c8;
+  color: #fff;
+  font-weight: bold;
+}
